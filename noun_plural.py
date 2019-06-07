@@ -28,4 +28,5 @@ def plural(noun):
     noun += 's'
     return(noun)
 
-print(plural('leaf'))
+res = map(plural,str)
+print(list(res))
